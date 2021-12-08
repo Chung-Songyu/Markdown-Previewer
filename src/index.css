@@ -1,0 +1,43 @@
+body {
+  font-family: 'Libre Caslon Text', serif;
+  background-color: rgba(149, 165, 166, 1);
+}
+
+.title {
+  text-shadow: 1px 0px rgba(0, 0, 0, 0.8);
+}
+
+.navb {
+  background-color: rgba(247, 202, 24, 1);
+}
+
+.navb:hover {
+  background-color: rgba(255, 212, 34, 1);
+}
+
+.roundCorner {
+  border-radius: 3px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.min {
+  display: none;
+}
+
+#editor, #preview {
+  min-height: 1000px;
+  background-color: rgba(255, 249, 222, 1);
+}
+
+.fa-expand-arrows-alt, .fa-compress-arrows-alt {
+  float: right;
+}
+
+.fa-expand-arrows-alt:hover, .fa-compress-arrows-alt:hover {
+  cursor: pointer;
+  color: rgba(255, 249, 222, 1);
+}
+
+img {
+  max-width: 50%;
+}

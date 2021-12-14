@@ -104,7 +104,7 @@ class App extends React.Component {
 
     return (
       <div className="container-fluid">
-        <h1 className="text-center my-4 title">Songluck's Markdown Previewer</h1>
+        <h1 className="text-center my-4 title">Songyu's Markdown Previewer</h1>
         <div className="row">
           <div className={editorMaxed}>
             <Editor textInput={this.state.input} handleChange={this.handleChange.bind(this)} editorMax={this.state.editorMax} previewMax={this.state.previewMax} editorMaxWindow={this.editorMaxWindow.bind(this)}/>
